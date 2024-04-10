@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 80
+// комент для комента
 
 app.use(express.static('./frontend/build'))
 
